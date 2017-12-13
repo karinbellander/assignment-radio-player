@@ -1,20 +1,57 @@
 .radio-boxes {
-  width: 98%;
-  margin: 1%;
+  width: 94%;
+  margin: 3%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .radio-box {
-  background-color: red;
-  width: 48%;
-  height: 40vh;
+  width: 100%;
+  margin:0;
+  padding: 0;
   margin: 1%;
   display: flex;
   flex-direction: row;
 }
 
 .channel-image {
-  background-color: blue;
   width: 30%;
+}
+
+.container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.channel-name {
+  margin: 0;
+  padding: 0;
+  margin-top: 25%;
+  padding-left: 5%;
+  font-size: 3vw;
+}
+
+.channel-name p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.audio {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 0.5%;
+  height: 25%;
+}
+
+.audio-control {
+  width: 100%;
+}
+
+img {
+  width: 100%;
 }

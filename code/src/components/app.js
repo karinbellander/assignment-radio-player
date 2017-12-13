@@ -3,16 +3,11 @@ import Station from "./station"
 
 class App extends React.Component {
 
-
   render() {
     return (
-
-      <div>
-        <Station />
-      </div>
+      <Station />
     )
   }
-
 }
 
 export default App
